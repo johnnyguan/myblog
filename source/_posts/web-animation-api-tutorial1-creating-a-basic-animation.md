@@ -3,7 +3,7 @@ title: 'web-animation-api tutorial1: creating a basic animation'
 date: 2018-01-22 13:49:56
 tags:
 ---
-由http://danielcwilson.com/blog/2015/07/animations-part-1/翻译
+由http://danielcwilson.com/blog/2015/07/animations-part-1/  翻译
 
 我们已经大致了解了Web Animation API，现在我们深入学习一下真实规范。
 
