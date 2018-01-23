@@ -3,7 +3,7 @@ title: web-animations-api-tutorial3-multiple-animations
 date: 2018-01-22 23:17:07
 tags:
 ---
-由http://danielcwilson.com/blog/2015/07/animations-part-3/  翻译
+由http://danielcwilson.com/blog/2015/08/animations-part-3/  翻译
 
 我们讨论多个动画。
 ## 每个元素上有多个动画
@@ -43,3 +43,4 @@ var haveFunWithIt = animated.animate(haveFunKeyframes, 2500);
 var animations = document.getAnimations ? document.getAnimations() : document.timeline.getAnimations();
 //returns array of all active (not finished and not canceled) animations
 ````
+
