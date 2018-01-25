@@ -55,3 +55,16 @@ CSS Shape 是在参考盒中定义和创建的，用于在元素上绘制形状�
 ```` css
 shape-outside: circle(250px at 50% 50%) padding-box;
 ````
+## Defining Shapes using shape functions
+<p data-height="265" data-theme-id="dark" data-slug-hash="KZjKEq" data-default-tab="result" data-user="JOHNNYGUAN" data-embed-version="2" data-pen-title="KZjKEq" class="codepen">See the Pen <a href="https://codepen.io/JOHNNYGUAN/pen/KZjKEq/">KZjKEq</a> by JOHNNY (<a href="https://codepen.io/JOHNNYGUAN">@JOHNNYGUAN</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+## Defining a shape using an image
+使用图像作为形状，这个图像需要有alpha通道，从而浏览器可以提取形状。
+形状是由alpha值大于某一阈值的像素构成的。阈值默认是0.0（完全透明），你也可以通过*shape-image-shreshold*属性进行更改。
+
+使用*url()*值指定*shape-outside*属性，我们可以将内容围绕在该形状周围。
+
+<div class="demo">
+    <div style="width:64px; height:64px; float:left; background:blue; shape-outside: url(hot.png); mask-image:url(hot.png);-webkit-mask-image:url(hot.png)"></div><p style="margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum itaque nam blanditiis eveniet enim eligendi quae adipisci?</p><p style="margin: 0;">Assumenda blanditiis voluptas tempore porro quibusdam beatae deleniti quod asperiores sapiente dolorem error! Quo nam quasi soluta reprehenderit laudantium optio ipsam ducimus consequatur enim fuga quibusdam mollitia nesciunt modi.</p>
+</div>
