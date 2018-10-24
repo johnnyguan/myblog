@@ -70,4 +70,4 @@ theme: hexo-theme-indigo-card
 deploy:
   type: git
   repo: ssh://git@github.com/johnnyguan/johnnyguan.github.io.git
-  branch: master
+  branch: gh-pages
