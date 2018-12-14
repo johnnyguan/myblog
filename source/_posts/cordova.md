@@ -47,7 +47,7 @@ b.Android target问题
 cordova build
 
 ## Cordova App更新问题 ##
-可以使用cordova-hot-code-push-plugin热更新
+可以使用cordova-hot-code-push-plugin热更新(注：作者已废弃，不再维护，慎用)
 
 使用方法：
 
@@ -71,7 +71,7 @@ cordova build
 
 5.在项目路径下运行cordova-hcp build，运行后会在www目录下生成chcp.json和chcp.manifest文件（必须）
 
-6.将项目中的www目录下所有文件上传到服务起刚才新建的目录hotcode下面
+6.将项目中的www目录下所有文件上传到服务器刚才新建的目录hotcode下面
 
 7.将下面代码加入项目config.xml，然后运行cordova build android
 ```
